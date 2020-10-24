@@ -28,7 +28,7 @@ twitter_username: rifrobotics
 github_username:  syllogismrxs
 
 # Build settings
-theme: minima
+theme: agency-jekyll-theme #minima
 plugins:
   - jekyll-feed
 
@@ -51,3 +51,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - vendor/
