@@ -84,8 +84,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray-darker;
     border-color: transparent;
     .navbar-brand {
-        color: $theme-primary;
-        @include script-font;
+        color: #FFFFFF;
+        @include serif-font;
         &:hover,
         &:focus,
         &:active,
@@ -197,7 +197,7 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 300px;
+            padding-top: 150px;
             padding-bottom: 200px;
             .intro-lead-in {
                 @include serif-font;
