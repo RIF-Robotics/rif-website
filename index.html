@@ -25,6 +25,10 @@
     <!-- Theme CSS -->
     <link href="/assets/main.css" rel="stylesheet">
 
+    <!-- For recaptcha contact form -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -218,12 +222,15 @@
                             <div class="form-group">
                                 <textarea class="form-control" placeholder="Your Message *" id="message" name="message"></textarea>
                                 <p class="help-block text-danger"></p>
+                                </br>
+                                <div class="g-recaptcha" data-sitekey="6LdPttsZAAAAAMcQUQG9JKRcp_gp8qJEE_XBQanc"></div>
                             </div>
                         </div>
                         <div class="clearfix"></div>
+
                         <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">Send Message</button>
+                          <div id="success"></div>
+                          <button type="submit" class="btn btn-xl">Send Message</button>
                         </div>
                     </div>
                 </form>
