@@ -22,8 +22,8 @@ title: RIF Robotics
 email: kevin.demarco@rifrobotics.com
 description: >- # this means to ignore newlines until "baseurl:"
   RIF Robotics Corp writes software for robots.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/rif-website" # the subpath of your site, e.g. /blog
+url: "https://rif-robotics.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rifrobotics
 github_username:  syllogismrxs
 
