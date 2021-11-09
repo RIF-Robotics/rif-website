@@ -1,6 +1,6 @@
 # RIF Website
 
-## One Time Setup
+## One time project setup
 
 ### Git Project
 
@@ -8,15 +8,10 @@ reference: http://sangsoonam.github.io/2019/02/08/using-git-worktree-to-deploy-g
 
 Create gh-pages branch that is orphaned
 
-    $ git checkout --orphan gh-pages
+    $ git checkout --orphan static-pages
     $ git reset --hard
     $ git commit --allow-empty -m "Init"
     $ git checkout main
-
-Setup _site as a git worktree of the gh-pages branch
-
-    $ rm -rf _site
-    $ git worktree add _site gh-pages
 
 ### DNS Servers
 
@@ -25,6 +20,11 @@ ref: https://deanattali.com/blog/multiple-github-pages-domains/
 Initially messed up Step 4: adding dot (.) to end of syllogismrxs.github.io.
 
 ### Development system setup
+
+Setup _site as a git worktree of the gh-pages branch
+
+    $ rm -rf _site
+    $ git worktree add _site static-pages
 
 Install git-lfs, which is used for images and large binary files:
 
